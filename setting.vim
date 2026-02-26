@@ -1,6 +1,7 @@
 set encoding=UTF-8
 set number
 set relativenumber
+set paste
 
 
 " 状态处理
@@ -10,4 +11,5 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+let g:indentLine_enabled = 1
 

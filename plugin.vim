@@ -34,14 +34,22 @@ Plug 'ibraheemdev/matchit'
 Plug 'SirVer/ultisnips'
 Plug 'pechorin/any-jump.vim'
 Plug 'kaarmu/typst.vim'
+Plug 'chomosuke/typst-preview.nvim', {'tag': 'v1.*'}
 
 "Plug 'godlygeek/tabular'
 "Plug 'preservim/vim-markdown'
 " If you don't have nodejs and yarn
 " use pre build, add 'vim-plug' to the filetype list so vim-plug can update this plugin
-" see: https://github.com/iamcco/markdown-preview.nvim/issues/50
+" see: https://github.com/iamcco/markdown-previewfdsfdsfs
+" nvim/issues/50
 "Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npx --yes yarn install' }
 Plug 'alfredodeza/pytest.vim'
+
+Plug 'rust-lang/rust.vim'
+Plug 'bfrg/vim-c-cpp-modern'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'lervag/vimtex', { 'tag': 'v2.15' }
+
 
 call plug#end()
